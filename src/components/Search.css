@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+.containerbody{
+    width: 1440px;
+    margin: auto;
+    background-color: lightgrey;
+    height: 1000px;
+}
+.containerSearch{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    border-radius: 15px;
+    background-image: url('./../assets/images/bg-shorten-desktop.svg');
+    background-color: hsl(255, 11%, 22%);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 70px;
+}
+.input{
+    padding: 23px;
+    width: 1000px;
+    border: 3px;
+    border-radius: 15px;
+    margin: 7px;
+}
+.btninput{
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color:  hsl(180, 66%, 49%);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.containerLinks{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    bottom: 70px;
+}
+.shortlink{
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+}
+.btnCopy{
+    display: flex;
+    flex-direction: row;
+}
+.btnlink{
+    list-style: none;
+    background-color: transparent;
+    margin: 20px;
+    border: none;
+    font-weight: bold;
+    color: hsl(180, 66%, 49%);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.btncopiar{
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color:  hsl(180, 66%, 49%);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.originalink{
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.containerCards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 80px;
+}
+.cardRecognition{
+    width: 400px;
+    background-color: white;
+    height: 300px;
+    border-radius: 10px;
+}
+.cardDetailed{
+    width: 400px;
+    background-color: white;
+    height: 300px;
+    position: relative;
+    top: 60px;
+    border-radius: 10px;
+}
+.cardFully{
+    width: 400px;
+    background-color: white;
+    height: 300px;
+    position: relative;
+    top: 110px;
+    border-radius: 10px;
+}
+.icon{
+    background-color:hsl(255, 11%, 22%);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+}
+.p{
+    padding: 30px;
+    line-height: 25px;
+    position: relative;
+    bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(131, 130, 130);
+}
+.titlecard{
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.AdvancedTitle{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.AdvancedP{
+    position: relative;
+    left: 400px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    width: 600px;
+    color: rgb(131, 130, 130);
+}
+@media only screen and (max-width: 380px){
+    .containerSearch{
+        width: 340px;
+        height: 160px;
+        position: relative;
+    }
+    .containerbody{
+        width: 380px;
+        height: 1500px;
+    }
+    .containerCards{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardRecognition{
+        width: 340px;
+    }
+    .cardDetailed{
+        width: 340px;
+    }
+    .cardFully{
+        width: 340px;
+    }
+    .icon{
+        position: relative;
+        left: 130px;
+    }
+    .titlecard{
+        text-align: center;
+        width: 290px;
+    }
+    .input{
+        width: 300px;
+        text-align: center;
+        position: relative;
+        left: 13px;
+    }
+    .btninput{
+        position: relative;
+        left: 20px;
+        width: 300px;
+    }
+    .containerLinks{
+        display:flex;
+        flex-direction: column;
+    }
+    .btnCopy{
+        display: flex;
+        flex-direction: column;
+    }
+    .btnlink{
+        position: relative;
+        right: 15px;
+    }
+    .originalink{
+        border-bottom: 2px solid lightgray;
+        padding: 15px;
+    }
+    .originallinkcontainer{
+        height: 100px;
+    }
+}

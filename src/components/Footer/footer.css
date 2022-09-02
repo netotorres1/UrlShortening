@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.containerFooter{
+    background-color: hsl(260, 8%, 14%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1440px;
+    margin: auto;
+    color: white;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.containerLista{
+    display: flex;
+    flex-direction: row;
+}
+.logoFooter{
+    color: white;
+}
+.lista{
+    list-style: none;
+    line-height: 20px;
+    padding-left: 30px;
+}
+.item{
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.iconMedia{
+    margin: 10px;
+}
+.LogoFooter{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}

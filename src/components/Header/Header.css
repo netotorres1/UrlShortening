@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
-.container{
+.containerHeader{
     width: 1440px;
     margin: auto;
     box-sizing: border-box;
+    height: 700px;
 }
 .headernavbar{
     display: flex;
@@ -47,8 +48,9 @@
 }
 .containerAnnouncement{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
+
 }
 .Announcement{
     width: 50%;
@@ -78,5 +80,55 @@
 }
 .illustration{
     position: relative;
-    left: 75px;
+    left: 70px;
+}
+@media only screen and (max-width: 380px){
+    .containerHeader{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        box-sizing: border-box;
+        height: 770px;
+    }
+    .links{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    .illustration{
+        width: 380px;
+        height: 300px;
+    }
+    .title{
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .text{
+        font-size: 20px;
+        width: 300px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .btnAnnouncement{
+        position: relative;
+        left: 70px;
+    }
+    .headerlogo{
+        width: 100px;
+    }
+    .headernavbar{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        justify-content: left;
+    }
+    .containerAnnouncement{
+        display: flex;
+        flex-direction: column;
+        right: 80px;
+    }
 }

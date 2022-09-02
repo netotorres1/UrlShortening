@@ -5,7 +5,7 @@ import illustration from './../../assets/images/illustration-working.svg'
 
 const Header = () => {
   return (
-    <div className='container'>
+    <div className='containerHeader'>
         <div className='headernavbar'>
             <div className='logocontainer'>
                 <img className='headerlogo' src={logo} />
@@ -15,12 +15,15 @@ const Header = () => {
                     <button className='link'>Resources</button>
                 </nav>
             </div>
-            <div>
+            <div className='login'>
                 <button className='headerbtn'>Login</button>
                 <button className='headerbtn'>Sign Up</button>
             </div>
+            
         </div>
+        
         <div className='containerAnnouncement'>
+        <img className='illustration' src={illustration} />
             <div className='Announcement'>
                 <h1 className='title'>More than just shorter links</h1>
                 <p className='text'>Build your brand's recognition and get detailed
@@ -28,8 +31,9 @@ const Header = () => {
                 </p>
                 <button className='btnAnnouncement'>Get Started</button>
             </div>
-            <img className='illustration' src={illustration} />
+            
         </div>
+        
     </div>
   )
 }
