@@ -4,6 +4,9 @@ import brandRecognition from './../assets/images/icon-brand-recognition.svg'
 import detailedrecords from './../assets/images/icon-detailed-records.svg'
 import fullycustomizable from './../assets/images/icon-fully-customizable.svg'
 
+
+
+const Search = () => {
     const getLocalStorage = () => {
         let links = localStorage.getItem('links')
 
@@ -13,8 +16,6 @@ import fullycustomizable from './../assets/images/icon-fully-customizable.svg'
             return []
         }
     }
-
-const Search = () => {
 
     const [link, setLink] = useState(getLocalStorage())
     const [links, setLinks] = useState([])
@@ -51,17 +52,19 @@ const Search = () => {
                 <button className='btninput' onClick={(e) => handleSubmit(e)}>Shorten it!</button>
             </form>
         </div>
-        <div className='containerLinks'>
-            <article className='originallinkcontainer'>
-                <h5 className='originalink'>{links.original_link}</h5>
-            </article>  
-            <article >
-                <nav className='btnCopy'>
-                    <button className='btnlink'>{links.full_short_link}</button>
-                    <button className='btncopiar' onClick={handleCopy}>{buttonText}</button>
-                </nav>
-            </article>
-        </div>
+            <div className='containerLinks'>
+                <article className='originallinkcontainer'>
+                    <h5 className='originalink'>{links.original_link}</h5>
+                </article>  
+                <hr className='hr'></hr>
+                <article >
+                    <nav className='btnCopy'>
+                        <button className='btnlink'>{links.full_short_link}</button>
+                        <button className='btncopiar' onClick={handleCopy}>{buttonText}</button>
+                     </nav>
+                </article>
+            </div>
+        
         <div className='containerAdvancedStatistics'>
             <h1 className='AdvancedTitle'>Advanced Statistics</h1>
             <p className='AdvancedP'>
@@ -70,8 +73,8 @@ const Search = () => {
             </p>
             <div className='containerCards'>
                 <div className='cardRecognition'>
-                    <div className='icon'>
-                        <img src={brandRecognition} />
+                    <div className='iconCard'>
+                        <img alt='' src={brandRecognition} />
                     </div>
                     <h2 className='titlecard' > Brand Recognition</h2>
                     <p className='p'>
@@ -79,9 +82,10 @@ const Search = () => {
                     mean a thing. Branded links help instil confidence in your content.
                     </p>
                 </div>
+                <div className='line1'></div>
                 <div className='cardDetailed'>
-                    <div className='icon'>
-                        <img src={detailedrecords} />
+                    <div className='iconCard'>
+                        <img alt='' src={detailedrecords} />
                     </div>
                     <h2 className='titlecard'> Brand Recognition</h2>
                     <p className='p'>
@@ -89,9 +93,10 @@ const Search = () => {
                     mean a thing. Branded links help instil confidence in your content.
                     </p>
                 </div>
+                <div className='line2'></div>
                 <div className='cardFully'>
-                    <div className='icon'>
-                        <img src={fullycustomizable} />
+                    <div className='iconCard'>
+                        <img alt='' src={fullycustomizable} />
                     </div>
                     <h2 className='titlecard'> Brand Recognition</h2>
                     <p className='p'>

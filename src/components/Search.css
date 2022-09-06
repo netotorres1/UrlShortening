@@ -39,6 +39,10 @@
     font-weight: bold;
     font-size: 20px;
 }
+.btninput:hover{
+    cursor: pointer;
+    background-color:  hsl(180, 53%, 60%);
+}
 .containerLinks{
     width: 90%;
     margin: auto;
@@ -81,6 +85,9 @@
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
+.btncopiar:hover{
+    cursor: pointer;
+}
 .originalink{
     margin: 30px;
     font-size: 20px;
@@ -116,7 +123,7 @@
     top: 110px;
     border-radius: 10px;
 }
-.icon{
+.iconCard{
     background-color:hsl(255, 11%, 22%);
     width: 90px;
     height: 90px;
@@ -126,7 +133,7 @@
     align-items: center;
     position: relative;
     bottom: 40px;
-    left: 20px;
+    left: 130px;
 }
 .p{
     padding: 30px;
@@ -154,6 +161,25 @@
     width: 600px;
     color: rgb(131, 130, 130);
 }
+.hr{
+    display: none;
+}
+.line1{
+    width:90px;
+    height: 10px;
+    background-color: hsl(180, 66%, 49%);
+    position: absolute;
+    top: 150px;
+    left: 440px;
+}
+.line2{
+    width: 90px;
+    height: 10px;
+    background-color: hsl(180, 66%, 49%);
+    position: absolute;
+    top: 150px;
+    left: 921px;
+}
 @media only screen and (max-width: 380px){
     .containerSearch{
         width: 340px;
@@ -167,6 +193,8 @@
     .containerCards{
         display: flex;
         flex-direction: column;
+        position: relative;
+        top: 150px;
     }
     .cardRecognition{
         width: 340px;
@@ -208,11 +236,41 @@
         position: relative;
         right: 15px;
     }
-    .originalink{
-        border-bottom: 2px solid lightgray;
-        padding: 15px;
+    .hr{
+        display: flex;
     }
     .originallinkcontainer{
         height: 100px;
+    }
+    .containerAdvancedStatistics{
+        background-color: lightgrey;
+        height: 1400px;
+    }
+    .AdvancedP{
+        position: absolute;
+        left: 10px;
+        width: 340px;
+    }
+    .AdvancedTitle{
+        position: relative;
+        bottom: 30px;
+    }
+    .line1{
+        width:90px;
+        height: 10px;
+        background-color: hsl(180, 66%, 49%);
+        position: absolute;
+        top:340px;
+        left: 150px;
+        transform: rotate(-90deg);
+    }
+    .line2{
+        width: 90px;
+        height: 10px;
+        background-color: hsl(180, 66%, 49%);
+        position: absolute;
+        top:700px;
+        left: 150px;
+        transform: rotate(-90deg);
     }
 }

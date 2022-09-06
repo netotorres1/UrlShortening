@@ -26,15 +26,48 @@
     line-height: 20px;
     padding-left: 30px;
 }
-.item{
+.itemF{
     line-height: 30px;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
 }
+.itemF:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 .iconMedia{
     margin: 10px;
+    cursor: pointer;
 }
 .LogoFooter{
     font-size: 35px;
     font-family: 'Poppins', sans-serif;
+}
+@media only screen and (max-width: 380px){
+    .containerFooter{
+        width: 380px;
+        position: relative;
+        top: 200px;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+    }
+    .containerLista{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        right: 20px;
+    }
+    .LogoFooter{
+        position: relative;
+        left: 90px;
+        width: 150px;
+        
+    }
+    .containerIcons{
+        position: relative;
+        left: 55px;
+        width: 200px;
+    }
 }

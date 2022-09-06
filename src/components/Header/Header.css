@@ -77,10 +77,18 @@
     color: white;
     border-radius: 25px;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 .illustration{
     position: relative;
     left: 70px;
+}
+.btnAnnouncement:hover{
+    cursor: pointer;
+    background-color:  hsl(180, 53%, 60%);
+}
+.navbarMobile{
+    display: none;
 }
 @media only screen and (max-width: 380px){
     .containerHeader{
@@ -88,7 +96,8 @@
         flex-direction: column;
         width: 380px;
         box-sizing: border-box;
-        height: 770px;
+        height: 820px;
+        box-sizing: border-box;
     }
     .links{
         display: none;
@@ -97,8 +106,11 @@
         display: none;
     }
     .illustration{
-        width: 380px;
+        width: 310px;
         height: 300px;
+        position: relative;
+        right: 100px;
+        z-index: 1;
     }
     .title{
         font-size: 30px;
@@ -116,7 +128,9 @@
     .btnAnnouncement{
         position: relative;
         left: 70px;
+        font-weight: bold;
     }
+    
     .headerlogo{
         width: 100px;
     }
@@ -129,6 +143,96 @@
     .containerAnnouncement{
         display: flex;
         flex-direction: column;
-        right: 80px;
+        right: 100px;
+        box-sizing: border-box;
+
     }
+    .Announcement{
+        position: relative;
+        left: 50px;
+    }
+    .navMobile{
+        display: flex;
+        flex-direction: column;
+        position:absolute;
+        background-color: red;
+        width: 340px;
+        height: 400px;
+        justify-content: space-around;
+        z-index: 2;
+    }
+    .navbarMobile{
+        display: none;
+    }
+    .navbarMobile.active{
+        display: flex;
+        position: absolute;
+        z-index: 4;
+        left: 20px;
+        border-radius: 15px;
+        flex-direction: column;
+        width: 340px;
+        height: 400px;
+        justify-content: space-around;
+        background-color: hsl(260, 8%, 14%);
+    }
+    .Mobilelink{
+        padding: 20px;
+        width: 90%;
+        position: relative;
+        left: 18px;
+        background-color: hsl(260, 8%, 14%);
+        color: white;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+    }
+    .MobilelinkResources{
+        padding: 20px;
+        width: 90%;
+        position: relative;
+        left: 18px;
+        background-color: hsl(260, 8%, 14%);
+        color: white;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        border-bottom: 2px rgb(80, 80, 80) solid;
+    }
+    .MobilelinkSignIn{
+        background-color: hsl(180, 66%, 49%);
+        padding: 20px;
+        color: white;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        width: 90%;
+        border-radius: 35px;
+        position: relative;
+        left: 17px;
+        margin-bottom: 30px;
+    }
+    .MenuHamburger{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        position: relative;
+        left: 300px;
+        bottom: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .MenuHamburguer.active{
+        display: none;
+    }
+    .hamburguer{
+        width: 35px;
+        height: 5px;
+        background-color: rgb(73, 73, 73);
+        margin: 2px;
+    }
+    
+    
 }

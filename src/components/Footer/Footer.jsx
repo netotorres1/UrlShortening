@@ -12,23 +12,23 @@ const Footer = () => {
         <h2 className='LogoFooter'>Shortly</h2>
         <div className='containerLista'>
             <ul className='lista'>
-                <li className='item'><b>Features</b></li>
-                <li className='item'>Link Shortening</li>
-                <li className='item'>Branded Links</li>
-                <li className='item'>Analytics</li>
+                <li className='itemF'><b>Features</b></li>
+                <li className='itemF'>Link Shortening</li>
+                <li className='itemF'>Branded Links</li>
+                <li className='itemF'>Analytics</li>
             </ul>
             <ul className='lista' >
-                <li className='item'><b>Resources</b></li>
-                <li className='item'>Blog</li>
-                <li className='item'>Developers</li>
-                <li className='item'>Support</li>
+                <li className='itemF'><b>Resources</b></li>
+                <li className='itemF'>Blog</li>
+                <li className='itemF'>Developers</li>
+                <li className='itemF'>Support</li>
             </ul>
             <ul className='lista' >
-                <li className='item'><b>Company</b></li>
-                <li className='item'>About</li>
-                <li className='item'>Our Team</li>
-                <li className='item'>Careers</li>
-                <li className='item'>Contact</li>
+                <li className='itemF'><b>Company</b></li>
+                <li className='itemF'>About</li>
+                <li className='itemF'>Our Team</li>
+                <li className='itemF'>Careers</li>
+                <li className='itemF'>Contact</li>
             </ul>
         </div>
         <div className='containerIcons'>
