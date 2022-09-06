@@ -31,10 +31,10 @@ const Footer = () => {
             </ul>
         </div>
         <div className='containerIcons'>
-            <img className='iconMedia' src={iconFB} />
-            <img className='iconMedia' src={iconTwitter} />
-            <img className='iconMedia' src={iconPinterest} />
-            <img className='iconMedia' src={iconInsta} />
+            <img alt='' className='iconMedia' src={iconFB} />
+            <img alt='' className='iconMedia' src={iconTwitter} />
+            <img alt='' className='iconMedia' src={iconPinterest} />
+            <img alt='' className='iconMedia' src={iconInsta} />
         </div>
     </div>
   )
