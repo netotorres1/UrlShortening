@@ -82,7 +82,7 @@ const Search = () => {
                     mean a thing. Branded links help instil confidence in your content.
                     </p>
                 </div>
-                <div className='line1'></div>
+                
                 <div className='cardDetailed'>
                     <div className='iconCard'>
                         <img alt='' src={detailedrecords} />
@@ -93,7 +93,7 @@ const Search = () => {
                     mean a thing. Branded links help instil confidence in your content.
                     </p>
                 </div>
-                <div className='line2'></div>
+                
                 <div className='cardFully'>
                     <div className='iconCard'>
                         <img alt='' src={fullycustomizable} />

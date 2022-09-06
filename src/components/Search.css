@@ -250,12 +250,13 @@
         position: absolute;
         left: 10px;
         width: 340px;
-        background-color: red;
+       
     }
     .AdvancedTitle{
         position: relative;
         bottom: 30px;
-        
+        left: 20px;
+        width: 340px;
     }
     .line1{
         width:90px;
@@ -274,5 +275,8 @@
         top:700px;
         left: 150px;
         transform: rotate(-90deg);
+    }
+    .p{
+        text-align: center;
     }
 }
