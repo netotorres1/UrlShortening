@@ -1,6 +1,5 @@
 import React from 'react'
 import './footer.css'
-import logo from './../../assets/images/logo.svg'
 import iconFB from './../../assets/images/icon-facebook.svg'
 import iconTwitter from './../../assets/images/icon-twitter.svg'
 import iconPinterest from './../../assets/images/icon-pinterest.svg'
