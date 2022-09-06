@@ -250,10 +250,12 @@
         position: absolute;
         left: 10px;
         width: 340px;
+        background-color: red;
     }
     .AdvancedTitle{
         position: relative;
         bottom: 30px;
+        
     }
     .line1{
         width:90px;
