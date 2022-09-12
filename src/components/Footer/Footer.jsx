@@ -11,19 +11,19 @@ const Footer = () => {
         <h2 className='LogoFooter'>Shortly</h2>
         <div className='containerLista'>
             <ul className='lista'>
-                <li className='itemF'><b>Features</b></li>
+                <li className='itemTitle'><b>Features</b></li>
                 <li className='itemF'>Link Shortening</li>
                 <li className='itemF'>Branded Links</li>
                 <li className='itemF'>Analytics</li>
             </ul>
             <ul className='lista' >
-                <li className='itemF'><b>Resources</b></li>
+                <li className='itemTitle'><b>Resources</b></li>
                 <li className='itemF'>Blog</li>
                 <li className='itemF'>Developers</li>
                 <li className='itemF'>Support</li>
             </ul>
             <ul className='lista' >
-                <li className='itemF'><b>Company</b></li>
+                <li className='itemTitle'><b>Company</b></li>
                 <li className='itemF'>About</li>
                 <li className='itemF'>Our Team</li>
                 <li className='itemF'>Careers</li>

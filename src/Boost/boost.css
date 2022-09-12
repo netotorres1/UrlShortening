@@ -2,7 +2,7 @@
     background-image: url('./../assets/images/bg-boost-desktop.svg');
     height: 250px;
     background-color: hsl(255, 11%, 22%);
-    width: 1440px;
+    width: 100vw;
     margin: auto;
     display: flex;
     align-items: center;

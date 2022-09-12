@@ -48,7 +48,7 @@ const Search = () => {
     <div className='containerbody'>
         <div className='containerSearch'>
             <form onSubmit={(e) => handleSubmit(e)}>
-                <input className='input' value={link} onChange={(e) => setLink(e.target.value)} />
+                <input placeholder='Shorten a link here...' className='input' value={link} onChange={(e) => setLink(e.target.value)} />
                 <button className='btninput' onClick={(e) => handleSubmit(e)}>Shorten it!</button>
             </form>
         </div>
